@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ParallelTestSuite" parallel="tests" thread-count="3">
+    <test name="chrome">
+        <classes>
+            <class name="My_package.Heroku_chrome"/>    
+        </classes>
+    </test> 
+     <test name="firefox">
+        <classes>
+            <class name="My_package.Heroku_firefox"/>    
+        </classes>
+    </test>  
+    <test name="Edge">
+        <classes>
+            <class name="My_package.Heroku_IE"/>    
+        </classes>
+    </test>  
+    <test name="Safari">
+        <classes>
+            <class name="My_package.Heroku_Safari"/>    
+        </classes>
+    </test>  
+</suite>

@@ -10,7 +10,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class Heroku_Login {
+public class Heroku_chrome {
 	 WebDriver driver;
 
 	    @BeforeTest
